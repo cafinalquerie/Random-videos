@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random Video Redirect</title>
+  <script>
+    const videos = [
+      "https://drive.google.com/file/d/1ao6YnkxO4yDNPDihr2AejXGzt6eM_Z_e/view",
+      "https://drive.google.com/file/d/1Hvt_3lcOwYBSGtZBisYPapZfJJy2DIAR/view",
+      "https://drive.google.com/file/d/17RC7DON4iYDcLV4V_OgLMs5ILN5xkIUQ/view",
+      "https://drive.google.com/file/d/1ydK2I6gBZ8OENgVhXpPD9SipoX_XPcVS/view",
+      "https://drive.google.com/file/d/1_YLlTE0NYUoNanOTCHGjn0vJeqwxr8zK/view",
+      "https://drive.google.com/file/d/1S6ILLRU81SyoWDPj8c9HfzmL25Y3c00M/view",
+      "https://drive.google.com/file/d/1QBkJil6gKscYQJ1F3sxpGmaKB1R9wuR_/view",
+      "https://drive.google.com/file/d/1GlLYOSUp7ufGRfjTyZT_jkr4avaIFgwH/view",
+      "https://drive.google.com/file/d/1fKxSJr3JAXoSqUKfKKMlO-2O4sjrY78p/view",
+      "https://drive.google.com/file/d/1eFgzb1lX0BLIdKI5fCqWMehI7rOdPHfF/view",
+      "https://drive.google.com/file/d/1RwqtBRZ-q0a8cJQ3lZrI7j_GFz5uwPyr/view",
+      "https://drive.google.com/file/d/1EzpZE-VfPR0TlxObdQ7eLBYs3GtTAGtP/view",
+      "https://drive.google.com/file/d/1x8sXudfDPCoLYkMFivmF4AV0S2Pw_v_l/view"
+    ];
+    
+    window.onload = function () {
+      const randomIndex = Math.floor(Math.random() * videos.length);
+      window.location.href = videos[randomIndex];
+    };
+  </script>
+</head>
+<body>
+  <h2>Redirecting to a random video...</h2>
+</body>
+</html>
